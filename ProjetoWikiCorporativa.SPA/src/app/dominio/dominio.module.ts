@@ -20,11 +20,11 @@ import { FormCadastroBaseComponent } from './shared/form-cadastro-base/form-cada
 import { FormEdicaoBaseComponent } from './shared/form-edicao-base/form-edicao-base.component';
 
 import { TemplateExibicaoBaseComponent } from './shared/template-exibicao-base/template-exibicao-base.component';
-import { ListaEmpregadosComponent } from './empregado/lista-empregados/lista-empregados.component';
-import { CadastroEmpregadoComponent } from './empregado/cadastro-empregado/cadastro-empregado.component';
-import { DetalheEmpregadoComponent } from './empregado/detalhe-empregado/detalhe-empregado.component';
-import { EdicaoEmpregadoComponent } from './empregado/edicao-empregado/edicao-empregado.component';
-import { ExclusaoEmpregadoComponent } from './empregado/exclusao-empregado/exclusao-empregado.component';
+// import { ListaEmpregadosComponent } from './empregado/lista-empregados/lista-empregados.component';
+// import { CadastroEmpregadoComponent } from './empregado/cadastro-empregado/cadastro-empregado.component';
+// import { DetalheEmpregadoComponent } from './empregado/detalhe-empregado/detalhe-empregado.component';
+// import { EdicaoEmpregadoComponent } from './empregado/edicao-empregado/edicao-empregado.component';
+// import { ExclusaoEmpregadoComponent } from './empregado/exclusao-empregado/exclusao-empregado.component';
 
 // import { ReactiveFormsModule } from '@angular/forms';
 
@@ -32,11 +32,11 @@ import { ExclusaoEmpregadoComponent } from './empregado/exclusao-empregado/exclu
 
 @NgModule({
   declarations: [
-    ListaEmpregadosComponent,
-    CadastroEmpregadoComponent,
-    DetalheEmpregadoComponent,
-    EdicaoEmpregadoComponent,
-    ExclusaoEmpregadoComponent,
+    // ListaEmpregadosComponent,
+    // CadastroEmpregadoComponent,
+    // DetalheEmpregadoComponent,
+    // EdicaoEmpregadoComponent,
+    // ExclusaoEmpregadoComponent,
     FormCadastroBaseComponent,
     FormEdicaoBaseComponent,
     TemplateExibicaoBaseComponent,

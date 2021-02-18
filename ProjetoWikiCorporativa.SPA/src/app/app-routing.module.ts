@@ -9,8 +9,8 @@ import { IndexComponent } from './index/index.component';
 
 
 const routes: Routes = [
-  // { path: 'Home', component: HomeComponent, data: { title: 'Home' } },
-  { path: 'Home', component: IndexComponent, data: { title: 'Home' } },
+  { path: 'Home', component: HomeComponent, data: { title: 'Home' } },
+  //{ path: 'Home', component: IndexComponent, data: { title: 'Home' } },
   { path: '', pathMatch: 'full', redirectTo: 'Home' },
   { path: 'Artigo', component: ArtigoComponent, data: { title: 'Home' } },
   { path: 'Editar', component: EdicaoComponent, data: { title: 'Home' } },

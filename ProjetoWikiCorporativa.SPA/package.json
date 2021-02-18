@@ -32,6 +32,7 @@
     "datatables.net-responsive": "^2.2.3",
     "datatables.net-responsive-dt": "^2.2.3",
     "guid-typescript": "^1.0.9",
+    "html-entities": "^2.1.0",
     "jquery": "^3.5.1",
     "jqueryui": "^1.11.1",
     "jwt-decode": "^2.2.0",
