@@ -1,0 +1,26 @@
+<!-- <label for="basic-url">Título do artigo</label> -->
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon3">Título do artigo</span>
+  </div>
+  <input type="text" class="form-control" [value]="tituloArtigo" aria-describedby="basic-addon3">
+</div>
+
+
+<!-- <ckeditor [(ngModel)]="model.editorData" 
+#myckeditor="ngModel"
+name="myckeditor"
+required
+[config]="ckeConfig" 
+debounce="500" 
+(ngModelChange)="onChange($event)"
+>
+</ckeditor> -->
+
+<ckeditor [(ngModel)]="model.editorData"></ckeditor>
+
+
+<h5 class="html-header">HTML Output</h5>
+<div class="html">
+  {{ model.editorData}}
+</div>

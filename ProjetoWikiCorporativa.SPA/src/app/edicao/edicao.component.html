@@ -1,0 +1,26 @@
+  <div class="container">
+    <header class="header">
+      <!-- <h1>AngularEditor</h1>
+      <p>Native WYSIWYG editor for Angular 6+ </p> -->
+
+      <!-- <input type="email" class="form-control" id="exampleInputEmail1" 
+      aria-describedby="emailHelp" placeholder="Digite o título do artigo" [value]="tituloArtigo"> -->
+
+    <!-- <label for="basic-url">Your vanity URL</label> -->
+    
+          <button class="btn btn-success" (click)="exibirConteudo()">Exibir</button>
+          <button class="btn btn-danger" (click)="exibirConteudoProcessado()">Exibir</button>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon3">Título do artigo</span>
+      </div>
+      <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" [value]="tituloArtigo">
+    </div>
+    </header>
+    <angular-editor [(ngModel)]="htmlContent" [config]="config" #editor (blur)="receberHtml($event)" id="kolkov">
+    </angular-editor>
+    <h5 class="html-header">HTML Output</h5>
+    <div class="html">
+      {{ htmlContent }}
+    </div>
+  </div>

@@ -1,0 +1,270 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    padding-top: 4.75rem;
+    padding-right: 0px;
+    font-family: Roboto, Geneva, Tahoma, Verdana, sans-serif;
+    /* font-family: Futura, Calibri, Tahoma, sans-serif; */
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #272727;
+    background-color: #FFF;
+  }
+  
+  .bg-ucc {
+    background: linear-gradient(to right, #0066b3 0%, #45c0ae 100%) !important;
+    /*background: #0066b3 ;*/
+  }
+  
+  .bg-ucc-reverse {
+    background: linear-gradient(to right, #45c0ae 0%, #0066b3 100%) !important;
+  }
+  
+  .tela-login {
+    background: linear-gradient(to bottom, #0066b3 0%, #45c0ae 100%);
+    height: 100vh;
+  }
+  
+  #homologacao_container {
+    background-color: rgba(252, 1, 1, 0.70);
+    border: 1px solid rgba(79, 133, 187, 0.5);
+    box-shadow: 0 1px 3px rgba(79, 133, 187, 1);
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1050;
+    text-align: center;
+  }
+  
+  #homologacao_container>h4 {
+    text-align: center;
+    opacity: 0.8;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 6px 0px 6px 0px;
+    /* top right bottom left */
+    text-shadow: 1px 1px #000;
+    text-transform: uppercase;
+    font-family: Roboto;
+  }
+  
+  .has-error .form-control,
+  .has-error .ng-select-container,
+  .input-validation-error {
+    border: 1px solid #A94442 !important;
+    box-shadow: none !important;
+  }
+  
+  .has-error .col-form-label,
+  label.has-error,
+  .has-error .form-check {
+    color: #A94442 !important;
+  }
+  
+  .text-error {
+    color: #A94442;
+  }
+  
+  .table th {
+    border-top: none !important;
+  }
+   
+  .dataTables_wrapper .dataTables_paginate {
+    float: left;
+    text-align: left;
+    padding-top: 0.25em;
+  }
+  
+  .dataTables_filter {
+    margin-top: 10px;
+  }
+  
+  .dataTables_filter input[type="search"] {
+    display: inline;
+    /* width: 100%; */
+    /* height: calc(1.5em + 0.75rem + 2px); */
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .extraContainer,
+  .extraContainer h6 {
+    background-color: #000 !important;
+    color: #00FFFF !important;
+    font-family: 'Consolas', 'monaco', 'monospace';
+    font-size: 11px;
+    font-style: normal;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    outline: none;
+    color: #272727;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #aaa;
+  }
+  
+  a.disabled-link,
+  a.disabled-link:visited,
+  a.disabled-link:active,
+  a.disabled-link:hover {
+    background-color: #d9d9d9 !important;
+    color: #aaa !important;
+  }
+  
+  /* label {
+    font-weight: bold;
+  } */
+  
+  .label-custom {
+    font-weight: normal !important;
+  }
+  
+  .card-header-custom {
+    padding: 0.75rem 0.75rem 0.1rem 0.75rem !important;
+  }
+  
+  .mt-button-custom {
+    margin-top: 2.4rem !important;
+  }
+  
+  .hr-personalizado {
+    min-height: 100%;
+    background-color: white;
+    background-image: linear-gradient(to right, white, #17a2b8, white);
+    background-repeat: no-repeat;
+    background-size: 100% 2.3px;
+    background-position: bottom;
+    padding-bottom: 1.25rem;
+  }
+  
+  @media (min-width: 768px) {
+    .custom-modal-xl {
+      max-width: 95% !important;
+      /* max-height: calc(100% - 160px) !important; */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .custom-modal-xl {
+      max-width: 95% !important;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .custom-modal-xl {
+      max-width: 95% !important;
+    }
+  }
+  
+  .cursoPointer {
+    cursor: pointer;
+  }
+  
+  /* .table {
+    font-size: 0.05rem !important;
+  }   */
+   
+  
+/** Persoanlização tabela **/
+
+  dl {
+    /*border: 3px double #ccc;*/
+    padding: 0.5em;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left;
+    font-weight: bold;
+    /*text-shadow: 0px 0px 2px*/ /*black, 0 0 25px blue, 0 0 5px*/ /*darkblue;*/
+    color:#015b9b /*, 0 0 5px*/ ;
+    /*text-shadow: 0px 1px 1px #000000;*/
+    font-size: 1.0rem;
+    padding: 1.1em 0 1.0em 0;
+    margin-left: 40px;
+  }
+  dt:after {
+    content: ":";
+  }
+  dd {
+    margin: 0 0 0 90px;
+    padding: 1.0em 0 1.1em 0;
+    font-size: 1.0rem;
+    color: black;
+  }
+
+th{
+  font-size: 0.85rem;
+}
+td{
+  font-size: 0.85rem;
+}
+
+td a span{
+  transition: all 0.3s;
+  font-size: 1.4rem;
+  width: 10%;
+}
+
+td a span:hover{
+  transform: scale(1.1);
+}
+
+td.id{
+  width: 5%;
+}
+
+td.matricula{
+  width: 5%;
+}
+
+td.nome{
+  width: 35%;
+}
+
+td.coordenaccao{
+  width: 35%;
+}
+
+td.unidade{
+  width: 5%;
+}
+
+td.destino{
+  width: 15%;
+  /*background: #015b9b;*/
+}
+
+td.assunto{
+  width: 25%;
+  /*background: #A94442;*/
+}
+td.acao{
+  width: 10%;
+}

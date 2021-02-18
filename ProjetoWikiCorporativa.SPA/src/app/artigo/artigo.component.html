@@ -1,0 +1,16 @@
+
+<tabset>
+
+  <tab heading="Visualizar" class="mt-2" (selectTab)="onSelect($event)">
+    <h4>{{artigoParam.titulo}}</h4>
+    <hr>
+    <div>
+      {{artigoParam.corpo}}
+    </div> 
+  </tab>
+
+  <tab heading="Editar" class="mt-2" (selectTab)="onSelect($event)">
+    <!-- <app-edicao1 "></app-edicao1> -->
+    <app-edicao2 [artigo]="artigoParam"></app-edicao2>
+  </tab>
+</tabset>

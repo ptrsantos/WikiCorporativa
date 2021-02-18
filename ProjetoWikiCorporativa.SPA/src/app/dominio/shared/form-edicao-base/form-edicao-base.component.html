@@ -1,0 +1,60 @@
+<div class=container>
+  <h5>Editar Empregado</h5>
+  <hr>
+  <form class="row form-group" [formGroup]="form">
+    <div class="col-lg-12">
+
+
+      <div class="row">
+
+        <input type="hidden" formControlName="Id" class="form-control">
+
+        <div class="form-group col-sm-3">
+          <label for="Matricula" class="col-form-label">Matricula</label>
+          <input type="input" formControlName="Matricula" class="form-control" disabled>
+        </div>
+
+        <div class="form-group col-sm-9">
+          <label for="Nome" class="col-form-label">Nome</label>
+          <input type="input" formControlName="Nome" class="form-control" placeholder=''
+            [class.is-invalid]="validaCampoNome('Nome')">
+            <div class="invalid-feedback">
+              <b>O campo nome é obrigatório de deve conter até 100 caracteres</b>
+            </div>
+        </div>
+
+        <div class="form-group col-sm-9">
+          <label class="col-form-label">Coordenaçao</label>
+          <input formControlName="Coordenacao" class="form-control" placeholder='Digite a coordenação'
+            [class.is-invalid]="validaCampoCoordenacao('Coordenacao')">
+          <div class="invalid-feedback">
+            <b>O campo coordenação é obrigatório de deve conter até 100 caracteres</b>
+          </div>
+        </div>
+
+        <div class="form-group col-sm-3">
+          <label class="col-form-label">Unidade</label>
+          <input formControlName="Unidade" class="form-control" placeholder='Digite a unidade'
+            [class.is-invalid]="validaCampoUnidade('Unidade')">
+          <div class="invalid-feedback">
+            <b>O campo unidade é obrigatório e deverá ser composto por 4 caracteres numéricos.</b>
+          </div>
+        </div>
+
+
+      </div>
+      <hr>
+
+      <div class="row justify-content-between">
+        <a class="btn btn-primary text-light" (click)="voltarPagina(form)">
+          <i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;&nbsp;Voltar
+        </a>
+        <button type="button" class="btn btn-primary" (click)="submeter(form)" [disabled]="!formValido" >
+          <i class="fas fa-dice-d20"></i>&nbsp;&nbsp;Salvar
+        </button>
+      </div>
+
+    </div>
+  </form>
+
+</div>

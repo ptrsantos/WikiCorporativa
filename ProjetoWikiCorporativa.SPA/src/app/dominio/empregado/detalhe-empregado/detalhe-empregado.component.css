@@ -1,0 +1,59 @@
+
+
+ /* dl.job-info{
+    width:100%;
+    overflow:hidden;
+}
+
+dl.job-info dt {
+    font-weight:600;
+    float:left;
+    width:49%;
+    clear:both;
+    padding:0;
+    padding-bottom:3px;
+    position:relative;
+}
+
+dl.job-info dd {
+    float:right;
+    width:51%;
+    padding:0;
+    padding-bottom:3px;
+    margin-left:0;
+}
+
+dl.job-info dd {
+    *float:none;
+    *width:auto;
+    *margin-left:49%;
+}*/
+
+/*dl{
+  letter-spacing:-0.31em;
+  *letter-spacing:normal;
+  word-spacing:-0.43em;
+}
+
+dl dt,
+dl dd {
+  display:inline-block;
+  *display:inline;
+  zoom:1;
+  letter-spacing:normal;
+  word-spacing:normal;
+  vertical-align:top;
+  margin:0;
+}
+
+dl dt{
+  font-weight:600;
+  width:48%;
+  padding: 0 2% 0.5em 0;
+}
+
+dl dd{
+  margin-right:-1px;
+  width:50%;
+  padding: 0 0 0.5em 0;
+}*/

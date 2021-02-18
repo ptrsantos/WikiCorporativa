@@ -1,0 +1,43 @@
+<div class="container">
+
+  <div class="div-card" >
+    <div class="card text-white bg-primary mb-3 p-1 shadow-lg mb-20" style="max-width: 100rem; ">
+      <div class="card-header">{{titulo}}</div>
+      <div class="card-body bg-light">
+        <a routerLink="/Oficios">
+          <dl class="list-unstyled">
+            <div class="row">
+              <div class="col-sm-12">
+
+                <dt>Matrícula:</dt>
+                <dd>{{empregado.Matricula}}</dd>
+
+                <dt>Nome </dt>
+                <dd>{{empregado.Nome}}</dd>
+
+                <dt>Coordenacao:</dt>
+                <dd>{{empregado.Coordenacao}}</dd>
+
+                <dt>Unidade:</dt>
+                <dd>{{empregado.Unidade}}</dd>
+
+              </div>
+              
+            </div>
+
+          </dl>
+        </a>
+        <div class="row row justify-content-between">
+          <a class="btn btn-primary" (click)="voltarPagina($event)">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;&nbsp;Voltar</a>
+          <button class="btn btn-primary" (click)="submit()">
+            <i [class]="icone" aria-hidden="true"></i>&nbsp;&nbsp;{{botao}}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+</div>

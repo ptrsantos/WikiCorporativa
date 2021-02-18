@@ -1,0 +1,15 @@
+.nav-link, .btn-sair {
+    cursor: pointer;
+}
+
+.nome-usuario, .btn-sair {
+    /* padding: 0.5rem 1rem; */
+    color: rgb(255, 255, 255);
+}
+
+/*nav{
+    box-shadow: 1px 1px 1px black, 0 0 13px blue, 0 0 5px darkblue;
+}*/
+
+
+
